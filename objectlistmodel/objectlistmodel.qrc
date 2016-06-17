@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>view.qml</file>
+        <file>HelveticaNeueRegularAtieva.ttf</file>
+        <file>CarAva.png</file>
+    </qresource>
+</RCC>

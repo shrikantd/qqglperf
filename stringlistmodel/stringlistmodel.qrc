@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>view.qml</file>
+        <file>HelveticaNeueRegularAtieva.ttf</file>
+    </qresource>
+</RCC>

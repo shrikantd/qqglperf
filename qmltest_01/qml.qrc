@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rectangle_anim.qml</file>
+        <file>window_anim.qml</file>
+        <file>window_swp.qml</file>
+    </qresource>
+</RCC>

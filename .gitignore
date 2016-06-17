@@ -27,3 +27,11 @@
 *.exe
 *.out
 *.app
+
+# Qt Files
+build-*
+*.pro.user
+*.qbs.user
+moc_*
+*.moc
+
