@@ -58,7 +58,7 @@ int main(int argc, char ** argv)
     QQmlContext *ctxt = engine.rootContext();
     ctxt->setContextProperty("strModel", QVariant::fromValue(dataList));
 
-    engine.load(QUrl("qrc:view.qml"));
+    engine.load(QUrl("qrc:/view.qml"));
 
     return app.exec();
 }

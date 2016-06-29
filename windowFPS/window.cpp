@@ -16,13 +16,13 @@ Window::Window()
     setFormat(format);
 }
 
-void Window::exposeEvent(QExposeEvent *) Q_DECL_OVERRIDE
+void Window::exposeEvent(QExposeEvent *)
 {
     if (isExposed())
         render();
 }
 
-bool Window::event(QEvent *e) Q_DECL_OVERRIDE
+bool Window::event(QEvent *e)
 {
     if (e->type() == QEvent::UpdateRequest) {
         render();
